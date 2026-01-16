@@ -1,0 +1,106 @@
+{
+    "app": {
+        "title": "INSTAFOLLOWS",
+        "subtitle": "ULTIMATE",
+        "help": "Open Quick Start Guide"
+    },
+    "threat": {
+        "title": "THREAT METER",
+        "optimal": "STEALTH OPTIMAL",
+        "risk": "HIGH RISK",
+        "scanning": "SCANNING...",
+        "capacity": "SCAN CAPACITY",
+        "ready": "Ready for safe scanning",
+        "wait": "Stealth regeneration required",
+        "caution": "CAUTION ADVISED",
+        "danger": "DANGER ZONE",
+        "safeDesc": "Ready for safe scanning",
+        "cautionDesc": "~100 profiles before risk",
+        "riskDesc": "Slow down to avoid detection",
+        "waitDesc": "Wait 10+ min to regenerate",
+        "disabled": "SCAN DISABLED - Wait for regeneration"
+    },
+    "session": {
+        "title": "SESSION",
+        "select": "Click to select",
+        "loaded": "✓ Loaded",
+        "loading": "Loading...",
+        "switch": "Switch Account",
+        "file": "COOKIES.JSON"
+    },
+    "actions": {
+        "extension": "GET EXTENSION",
+        "instagram": "OPEN IG",
+        "scan": "FIND TRAITORS",
+        "scanning": "SCANNING...",
+        "stop": "STOP SCAN",
+        "unfollow": "UNFOLLOW",
+        "startScan": "START SCAN"
+    },
+    "stats": {
+        "followers": "FOLLOWERS",
+        "following": "FOLLOWING",
+        "traitors": "TRAITORS",
+        "time": "SCAN TIME"
+    },
+    "filters": {
+        "search": "Search...",
+        "all": "ALL",
+        "personal": "PERSONAL",
+        "business": "BUSINESS",
+        "private": "PRIVATE",
+        "sort": "Sort",
+        "placeholder": "@username or leave empty for self"
+    },
+    "list": {
+        "title": "TRAITOR LIST",
+        "empty": "No Traitors Found",
+        "emptyDesc": "Everyone you follow is following you back. Perfect loyalty!",
+        "unfollowError": "Unfollow failed"
+    },
+    "status": {
+        "offline": "OFFLINE",
+        "ready": "READY",
+        "scanning": "SCANNING",
+        "complete": "COMPLETE",
+        "loadSession": "Load Session to Start",
+        "loadInstructions": "Export your Instagram cookies using a browser extension and load the file here.",
+        "sessionLoaded": "Session Loaded",
+        "readyToAnalyze": "Ready to analyze followers.",
+        "preparing": "Preparing...",
+        "scanningFollowers": "Scanning Followers...",
+        "scanningFollowing": "Scanning Following...",
+        "initializing": "Initializing..."
+    },
+    "errors": {
+        "integrityLow": "Stealth Integrity too low. Wait for regeneration.",
+        "noUserId": "No user ID available. Load session or enter username."
+    },
+    "onboarding": {
+        "title": "Quick Setup Guide",
+        "step": "STEP",
+        "back": "Back",
+        "next": "Continue",
+        "skip": "Close",
+        "step1": {
+            "title": "Install Extension",
+            "description": "First, install the 'Export Cookie JSON' Chrome extension.",
+            "action": "GET EXTENSION"
+        },
+        "step2": {
+            "title": "Open Instagram",
+            "description": "Log in to your Instagram account in the browser.",
+            "action": "OPEN INSTAGRAM"
+        },
+        "step3": {
+            "title": "Export Cookies",
+            "description": "Open the extension and click 'Export' to download cookies.json.",
+            "action": null
+        },
+        "step4": {
+            "title": "Load Session",
+            "description": "Load the cookies.json file here to authorize the secure scan.",
+            "action": "LOAD & GO"
+        }
+    }
+}

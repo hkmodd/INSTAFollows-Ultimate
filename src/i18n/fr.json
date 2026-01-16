@@ -1,0 +1,106 @@
+{
+    "app": {
+        "title": "INSTAFOLLOWS",
+        "subtitle": "ULTIMATE",
+        "help": "Guide Rapide"
+    },
+    "threat": {
+        "title": "NIVEAU DE MENACE",
+        "optimal": "STEALTH OPTIMAL",
+        "risk": "HAUT RISQUE",
+        "scanning": "SCAN EN COURS...",
+        "capacity": "CAPACITÉ DE SCAN",
+        "ready": "Prêt pour scan sécurisé",
+        "wait": "Régénération stealth requise",
+        "caution": "ATTENTION REQUISE",
+        "danger": "ZONE DANGEREUSE",
+        "safeDesc": "Prêt pour scan sécurisé",
+        "cautionDesc": "~100 profils avant risque",
+        "riskDesc": "Ralentissez pour éviter détection",
+        "waitDesc": "Attendez 10+ min pour régénérer",
+        "disabled": "SCAN DÉSACTIVÉ - Attendez régénération"
+    },
+    "session": {
+        "title": "SESSION",
+        "select": "Cliquez pour sélectionner",
+        "loaded": "✓ Chargée",
+        "loading": "Chargement...",
+        "switch": "Changer de Compte",
+        "file": "COOKIES.JSON"
+    },
+    "actions": {
+        "extension": "OBTENIR EXTENSION",
+        "instagram": "OUVRIR IG",
+        "scan": "TROUVER TRAÎTRES",
+        "scanning": "SCAN EN COURS...",
+        "stop": "ARRÊTER SCAN",
+        "unfollow": "NE PLUS SUIVRE",
+        "startScan": "LANCER SCAN"
+    },
+    "stats": {
+        "followers": "ABONNÉS",
+        "following": "ABONNEMENTS",
+        "traitors": "TRAÎTRES",
+        "time": "TEMPS"
+    },
+    "filters": {
+        "search": "Rechercher...",
+        "all": "TOUS",
+        "personal": "PERSO",
+        "business": "BUSINESS",
+        "private": "PRIVÉ",
+        "sort": "Trier",
+        "placeholder": "@utilisateur ou vide pour soi-même"
+    },
+    "list": {
+        "title": "LISTE DES TRAÎTRES",
+        "empty": "Aucun Traître Trouvé",
+        "emptyDesc": "Tous ceux que vous suivez vous suivent en retour. Loyauté parfaite !",
+        "unfollowError": "Échec du désabonnement"
+    },
+    "status": {
+        "offline": "HORS LIGNE",
+        "ready": "PRÊT",
+        "scanning": "SCAN",
+        "complete": "TERMINÉ",
+        "loadSession": "Charger Session pour Débuter",
+        "loadInstructions": "Exportez vos cookies Instagram via une extension et chargez le fichier ici.",
+        "sessionLoaded": "Session Chargée",
+        "readyToAnalyze": "Prêt à analyser les abonnés.",
+        "preparing": "Préparation...",
+        "scanningFollowers": "Scan Abonnés...",
+        "scanningFollowing": "Scan Abonnements...",
+        "initializing": "Initialisation..."
+    },
+    "errors": {
+        "integrityLow": "Intégrité Stealth trop basse. Attendez la régénération.",
+        "noUserId": "Pas d'ID utilisateur. Chargez une session ou entrez un pseudo."
+    },
+    "onboarding": {
+        "title": "Guide Rapide",
+        "step": "ÉTAPE",
+        "back": "Retour",
+        "next": "Continuer",
+        "skip": "Fermer",
+        "step1": {
+            "title": "Installer Extension",
+            "description": "D'abord, installez l'extension Chrome 'Export Cookie JSON'.",
+            "action": "OBTENIR EXTENSION"
+        },
+        "step2": {
+            "title": "Ouvrir Instagram",
+            "description": "Connectez-vous à votre compte Instagram dans le navigateur.",
+            "action": "OUVRIR INSTAGRAM"
+        },
+        "step3": {
+            "title": "Exporter Cookies",
+            "description": "Ouvrez l'extension et cliquez sur 'Export' pour télécharger cookies.json.",
+            "action": null
+        },
+        "step4": {
+            "title": "Charger Session",
+            "description": "Chargez le fichier cookies.json ici pour autoriser le scan sécurisé.",
+            "action": "SCANNER MAINTENANT"
+        }
+    }
+}

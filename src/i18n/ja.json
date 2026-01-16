@@ -1,0 +1,106 @@
+{
+    "app": {
+        "title": "INSTAFOLLOWS",
+        "subtitle": "ULTIMATE",
+        "help": "クイックガイド"
+    },
+    "threat": {
+        "title": "脅威レベル",
+        "optimal": "ステルス最適",
+        "risk": "高リスク",
+        "scanning": "スキャン中...",
+        "capacity": "スキャン容量",
+        "ready": "安全なスキャン可能",
+        "wait": "ステルス回復が必要",
+        "caution": "注意が必要",
+        "danger": "危険ゾーン",
+        "safeDesc": "安全なスキャン可能",
+        "cautionDesc": "リスクまであと約100プロフィール",
+        "riskDesc": "検出を避けるため速度を落としてください",
+        "waitDesc": "回復まで10分以上待ってください",
+        "disabled": "スキャン無効 - 回復を待っています"
+    },
+    "session": {
+        "title": "セッション",
+        "select": "クリックして選択",
+        "loaded": "✓ 読み込み完了",
+        "loading": "読み込み中...",
+        "switch": "アカウント切替",
+        "file": "COOKIES.JSON"
+    },
+    "actions": {
+        "extension": "拡張機能を入手",
+        "instagram": "インスタを開く",
+        "scan": "裏切り者を探す",
+        "scanning": "スキャン中...",
+        "stop": "停止",
+        "unfollow": "フォロー解除",
+        "startScan": "スキャン開始"
+    },
+    "stats": {
+        "followers": "フォロワー",
+        "following": "フォロー中",
+        "traitors": "裏切り者",
+        "time": "時間"
+    },
+    "filters": {
+        "search": "検索...",
+        "all": "すべて",
+        "personal": "個人",
+        "business": "ビジネス",
+        "private": "非公開",
+        "sort": "並び替え",
+        "placeholder": "@ID または空白で自分"
+    },
+    "list": {
+        "title": "裏切り者リスト",
+        "empty": "裏切り者は見つかりませんでした",
+        "emptyDesc": "あなたがフォローしている全員があなたをフォローバックしています。完璧な忠誠心！",
+        "unfollowError": "フォロー解除に失敗しました"
+    },
+    "status": {
+        "offline": "オフライン",
+        "ready": "準備完了",
+        "scanning": "スキャン中",
+        "complete": "完了",
+        "loadSession": "セッションを読み込んで開始",
+        "loadInstructions": "ブラウザ拡張機能を使用してInstagramのクッキーをエクスポートし、ここで読み込んでください。",
+        "sessionLoaded": "セッション読み込み完了",
+        "readyToAnalyze": "フォロワーを分析する準備ができました。",
+        "preparing": "準備中...",
+        "scanningFollowers": "フォロワーをスキャン中...",
+        "scanningFollowing": "フォロー中をスキャン中...",
+        "initializing": "初期化中..."
+    },
+    "errors": {
+        "integrityLow": "ステルス値が低すぎます。回復を待ってください。",
+        "noUserId": "ユーザーIDがありません。セッションを読み込むかIDを入力してください。"
+    },
+    "onboarding": {
+        "title": "クイックガイド",
+        "step": "ステップ",
+        "back": "戻る",
+        "next": "次へ",
+        "skip": "閉じる",
+        "step1": {
+            "title": "拡張機能をインストール",
+            "description": "まず、Chrome拡張機能「Export Cookie JSON」をインストールしてください。",
+            "action": "拡張機能を入手"
+        },
+        "step2": {
+            "title": "Instagramを開く",
+            "description": "ブラウザでInstagramアカウントにログインしてください。",
+            "action": "インスタを開く"
+        },
+        "step3": {
+            "title": "クッキーをエクスポート",
+            "description": "拡張機能を開き、「Export」をクリックしてcookies.jsonをダウンロードします。",
+            "action": null
+        },
+        "step4": {
+            "title": "セッションを読み込む",
+            "description": "ここでcookies.jsonファイルを読み込み、安全なスキャンを承認してください。",
+            "action": "今すぐスキャン"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "app": {
+        "title": "INSTAFOLLOWS",
+        "subtitle": "ULTIMATE",
+        "help": "快速指南"
+    },
+    "threat": {
+        "title": "威胁等级",
+        "optimal": "隐身状态极佳",
+        "risk": "高风险",
+        "scanning": "扫描中...",
+        "capacity": "扫描能力",
+        "ready": "准备好进行安全扫描",
+        "wait": "需要恢复隐身值",
+        "caution": "需要注意",
+        "danger": "危险区域",
+        "safeDesc": "准备好进行安全扫描",
+        "cautionDesc": "风险前约100个配置文件",
+        "riskDesc": "减慢速度以避免检测",
+        "waitDesc": "等待10+分钟以恢复",
+        "disabled": "扫描已禁用 - 等待恢复"
+    },
+    "session": {
+        "title": "会话",
+        "select": "点击选择",
+        "loaded": "✓ 已加载",
+        "loading": "加载中...",
+        "switch": "切换账号",
+        "file": "COOKIES.JSON"
+    },
+    "actions": {
+        "extension": "获取扩展",
+        "instagram": "打开 IG",
+        "scan": "寻找背叛者",
+        "scanning": "扫描中...",
+        "stop": "停止",
+        "unfollow": "取消关注",
+        "startScan": "开始扫描"
+    },
+    "stats": {
+        "followers": "粉丝",
+        "following": "关注中",
+        "traitors": "背叛者",
+        "time": "时间"
+    },
+    "filters": {
+        "search": "搜索...",
+        "all": "全部",
+        "personal": "个人",
+        "business": "商业",
+        "private": "私密",
+        "sort": "排序",
+        "placeholder": "@用户名 或留空扫描自己"
+    },
+    "list": {
+        "title": "背叛者列表",
+        "empty": "未发现背叛者",
+        "emptyDesc": "你关注的所有人都回关你了。完美的忠诚！",
+        "unfollowError": "取关失败"
+    },
+    "status": {
+        "offline": "离线",
+        "ready": "就绪",
+        "scanning": "扫描中",
+        "complete": "完成",
+        "loadSession": "加载会话以开始",
+        "loadInstructions": "使用浏览器扩展导出 Instagram Cookies 并在此处加载文件。",
+        "sessionLoaded": "会话已加载",
+        "readyToAnalyze": "准备好分析粉丝。",
+        "preparing": "准备中...",
+        "scanningFollowers": "正在扫描粉丝...",
+        "scanningFollowing": "正在扫描关注...",
+        "initializing": "初始化..."
+    },
+    "errors": {
+        "integrityLow": "隐身完整性过低。请等待恢复。",
+        "noUserId": "无用户ID。请加载会话或输入用户名。"
+    },
+    "onboarding": {
+        "title": "快速指南",
+        "step": "步骤",
+        "back": "返回",
+        "next": "继续",
+        "skip": "关闭",
+        "step1": {
+            "title": "安装扩展",
+            "description": "首先，安装 Chrome 扩展 'Export Cookie JSON'。",
+            "action": "获取扩展"
+        },
+        "step2": {
+            "title": "打开 Instagram",
+            "description": "在浏览器中登录你的 Instagram 账号。",
+            "action": "打开 INSTAGRAM"
+        },
+        "step3": {
+            "title": "导出 Cookies",
+            "description": "打开扩展并点击 'Export' 下载 cookies.json。",
+            "action": null
+        },
+        "step4": {
+            "title": "加载会话",
+            "description": "在此处加载 cookies.json 文件以授权安全扫描。",
+            "action": "立即扫描"
+        }
+    }
+}

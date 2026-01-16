@@ -1,0 +1,36 @@
+[package]
+name = "instafollows-ultimate"
+version = "1.0.0"
+description = "Stealth Instagram Analytics - Detect non-mutual followers with Chrome133 TLS fingerprinting"
+authors = ["sebas"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+# The `_lib` suffix may seem redundant but it is necessary
+# to make the lib name unique and wouldn't conflict with the bin name.
+# This seems to be only an issue on Windows, see https://github.com/rust-lang/cargo/issues/8519
+name = "instafollows_ultimate_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Stealth Networking - Chrome133 TLS Fingerprinting
+rquest = { version = "2", features = ["json", "cookies", "gzip", "brotli"] }
+tokio = { version = "1", features = ["full"] }
+rand = "0.9"
+anyhow = "1.0"
+url = "2.5"
+log = "0.4"
+env_logger = "0.10"
+base64 = "0.22"
+

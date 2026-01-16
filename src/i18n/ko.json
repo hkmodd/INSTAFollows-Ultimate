@@ -1,0 +1,106 @@
+{
+    "app": {
+        "title": "INSTAFOLLOWS",
+        "subtitle": "ULTIMATE",
+        "help": "빠른 가이드"
+    },
+    "threat": {
+        "title": "위협 수준",
+        "optimal": "스텔스 최적",
+        "risk": "고위험",
+        "scanning": "스캔 중...",
+        "capacity": "스캔 용량",
+        "ready": "안전 스캔 준비 완료",
+        "wait": "스텔스 재생성 필요",
+        "caution": "주의 필요",
+        "danger": "위험 구역",
+        "safeDesc": "안전 스캔 준비 완료",
+        "cautionDesc": "위험 전 약 100개 프로필",
+        "riskDesc": "감지를 피하기 위해 속도를 줄이세요",
+        "waitDesc": "재생성까지 10분 이상 대기",
+        "disabled": "스캔 비활성화 - 재생성 대기"
+    },
+    "session": {
+        "title": "세션",
+        "select": "클릭하여 선택",
+        "loaded": "✓ 로드됨",
+        "loading": "로드 중...",
+        "switch": "계정 전환",
+        "file": "COOKIES.JSON"
+    },
+    "actions": {
+        "extension": "확장 프로그램 받기",
+        "instagram": "인스타 열기",
+        "scan": "배신자 찾기",
+        "scanning": "스캔 중...",
+        "stop": "중지",
+        "unfollow": "언팔로우",
+        "startScan": "스캔 시작"
+    },
+    "stats": {
+        "followers": "팔로워",
+        "following": "팔로잉",
+        "traitors": "배신자",
+        "time": "시간"
+    },
+    "filters": {
+        "search": "검색...",
+        "all": "전체",
+        "personal": "개인",
+        "business": "비즈니스",
+        "private": "비공개",
+        "sort": "정렬",
+        "placeholder": "@사용자명 또는 본인은 비워두기"
+    },
+    "list": {
+        "title": "배신자 목록",
+        "empty": "배신자가 없습니다",
+        "emptyDesc": "당신이 팔로우하는 모든 사람이 맞팔로우 중입니다. 완벽한 의리!",
+        "unfollowError": "언팔로우 실패"
+    },
+    "status": {
+        "offline": "오프라인",
+        "ready": "준비됨",
+        "scanning": "스캔 중",
+        "complete": "완료",
+        "loadSession": "시작하려면 세션 로드",
+        "loadInstructions": "브라우저 확장 프로그램을 사용하여 인스타그램 쿠키를 내보내고 파일을 여기에 로드하세요.",
+        "sessionLoaded": "세션 로드됨",
+        "readyToAnalyze": "팔로워 분석 준비 완료.",
+        "preparing": "준비 중...",
+        "scanningFollowers": "팔로워 스캔 중...",
+        "scanningFollowing": "팔로잉 스캔 중...",
+        "initializing": "초기화 중..."
+    },
+    "errors": {
+        "integrityLow": "스텔스 무결성이 너무 낮습니다. 재생성을 기다리세요.",
+        "noUserId": "사용자 ID가 없습니다. 세션을 로드하거나 사용자명을 입력하세요."
+    },
+    "onboarding": {
+        "title": "빠른 가이드",
+        "step": "단계",
+        "back": "뒤로",
+        "next": "계속",
+        "skip": "닫기",
+        "step1": {
+            "title": "확장 프로그램 설치",
+            "description": "먼저 Chrome 확장 프로그램 'Export Cookie JSON'을 설치하세요.",
+            "action": "확장 프로그램 받기"
+        },
+        "step2": {
+            "title": "인스타그램 열기",
+            "description": "브라우저에서 인스타그램 계정에 로그인하세요.",
+            "action": "인스타그램 열기"
+        },
+        "step3": {
+            "title": "쿠키 내보내기",
+            "description": "확장 프로그램을 열고 'Export'를 클릭하여 cookies.json을 다운로드하세요.",
+            "action": null
+        },
+        "step4": {
+            "title": "세션 로드",
+            "description": "안전한 스캔을 승인하려면 여기서 cookies.json 파일을 로드하세요.",
+            "action": "지금 스캔"
+        }
+    }
+}
