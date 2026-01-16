@@ -10,7 +10,7 @@
 
 **THE ELITE INSTAGRAM MANAGEMENT TOOL**
 
-[Download Latest Release](https://github.com/your-repo/instafollows-ultimate/releases/latest) • [Report Bug](https://github.com/your-repo/instafollows-ultimate/issues)
+[Download Latest Release](https://github.com/hkmodd/INSTAFollows-Ultimate/) • [Report Bug](https://github.com/hkmodd/INSTAFollows-Ultimate/issues)
 
 </div>
 
