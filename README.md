@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👻 INSTAFOLLOWS ULTIMATE v2
+# INSTAFOLLOWS ULTIMATE
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)](https://tauri.app/)
